@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    div#content
+        div#room
+        div#room-list
+        div#messages
+        form#send-form
+            input#send-message
+            input#send-button(type="submit",value='Send')
+            div#help Chat commands:
+                ul
+                    li Change nickname: <code>/nick [username]</code>
+                    li Join/create room: <code>/join [room name]</code>
+
+
+
